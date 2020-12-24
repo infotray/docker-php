@@ -10,6 +10,3 @@ RUN docker-php-ext-install \
     zip \
     soap \
     opcache
-
-# Install composer
-COPY --from=composer /usr/bin/composer /usr/bin/composer
