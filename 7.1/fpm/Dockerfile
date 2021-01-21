@@ -10,3 +10,5 @@ RUN docker-php-ext-install \
     zip \
     soap \
     opcache
+
+CMD ["php-fpm"]
